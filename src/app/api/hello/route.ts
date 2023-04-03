@@ -6,6 +6,6 @@ export const config = {
   runtime: 'edge',
 }
 
-export default async function handler(req: NextRequest) {
+export default async function GET(req: NextRequest) {
   return new Response(JSON.stringify({ name: 'John Doe' }))
 }
