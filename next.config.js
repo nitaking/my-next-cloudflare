@@ -2,6 +2,9 @@
 const nextConfig = {
   experimental: {
     appDir: true,
+    runtime: 'edge',
+    reactStrictMode: true,
+
   },
 }
 
