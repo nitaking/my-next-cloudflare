@@ -2,6 +2,7 @@
   "name": "my-next-cloudflare",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
